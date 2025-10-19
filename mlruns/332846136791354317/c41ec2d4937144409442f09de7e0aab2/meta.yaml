@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/332846136791354317/c41ec2d4937144409442f09de7e0aab2/artifacts
+end_time: 1757944580550
+entry_point_name: ''
+experiment_id: '332846136791354317'
+lifecycle_stage: active
+run_id: c41ec2d4937144409442f09de7e0aab2
+run_name: silent-midge-390
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757944577851
+status: 3
+tags: []
+user_id: alekseikotliarov
