@@ -1,24 +1,8 @@
 version: '1'
 services:
-  mlflow:
-    image: ghcr.io/mlflow/mlflow:v2.15.0
-    command: mlflow server --host 0.0.0.0 --port 8080
-    ports:
-      - "8080:8080"
-    networks:
-      - flow
-    volumes:
-      - ./mlartifacts:/mlartifacts
-      - ./mlruns:/mlruns
-
   app:
     build: ./app
-    depends_on:
-      - mlflow
     ports:
       - "6942:6942"
-    networks:
-      - flow
-
-networks:
-  flow:
+    environment:
+      MLFLOW_TRACKING_URI: "http://host.docker.internal:5050"
