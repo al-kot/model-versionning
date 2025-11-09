@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/332846136791354317/6b740f6d3990425797137f5b292795fd/artifacts
+end_time: 1762637961971
+entry_point_name: ''
+experiment_id: '332846136791354317'
+lifecycle_stage: active
+run_id: 6b740f6d3990425797137f5b292795fd
+run_name: thundering-bat-22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762637960543
+status: 3
+tags: []
+user_id: asq

@@ -1,0 +1,15 @@
+creation_timestamp: 1762637961951
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1762637961951
+model_id: m-c94c83d08dbc4d88bba3398b6bb59f57
+name: tracking-quickstart
+run_id: 6b740f6d3990425797137f5b292795fd
+run_link: ''
+source: models:/m-c94c83d08dbc4d88bba3398b6bb59f57
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/332846136791354317/models/m-c94c83d08dbc4d88bba3398b6bb59f57/artifacts
+user_id: null
+version: 4
