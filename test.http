@@ -1,20 +1,28 @@
-###
+### Check API health
 
 GET http://localhost:6942/health HTTP/1.1
 Accept: application/json
 
-###
+### Predict using current/next models (canary traffic)
 
 POST http://localhost:6942/predict HTTP/1.1
 Accept: application/json
+Content-Type: application/json
 
 [1, 2, 3, 4]
 
-###
+### Update the next model to version 4 (replace '4' with an actual version from MLflow)
 
 POST http://localhost:6942/update-model HTTP/1.1
 Accept: application/json
+Content-Type: application/json
 
 {
 "version": 4
 }
+
+### Accept the next model as current
+
+POST http://localhost:6942/accept-next-model HTTP/1.1
+Accept: application/json
+Content-Type: application/json
